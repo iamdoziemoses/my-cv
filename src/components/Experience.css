@@ -1,0 +1,36 @@
+.section-work {
+    background-color: #ff1818;
+    color: white;
+    width: 100%;
+    padding-left: 5rem;
+}
+
+.section-work ul li{
+    position: relative;
+    list-style: none;
+}
+
+.section-work ul li::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid rgb(183, 178, 178);
+}
+
+.section-work ul li::after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 115px;
+    background: white;
+}
+
+.semi-bold{
+    font-weight: bold;
+}
